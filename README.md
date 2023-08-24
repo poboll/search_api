@@ -1,15 +1,15 @@
-# poboll-api
+# search_api
 
-GPT镜像联网解决方案
+免费的无限制的搜索接口-适用于ChatGPT镜像联网解决方案/Free unrestricted search interface GPT Mirror Networking Solution
 
 ## Use vercel
-[https://duckduckgo-api.vercel.app/search?q=啊对对对是什么梗&max_results=3](https://duckduckgo-api.vercel.app/search?q=啊对对对是什么梗&max_results=3)
+[https://xxx-api.vercel.app/search?q=啊对对对是什么梗&max_results=3](https://duckduckgo-api.vercel.app/search?q=啊对对对是什么梗&max_results=3)
 
 使用vercel部署的本项目,免费，但是vercel免费用量用完就无了
 
 可点下方按钮部署到自己的Vercel
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/binjie09/duckduckgo-api)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/poboll/search_api)
 
 <details>
  <summary>设置 Vercel 的指导</summary>
@@ -61,7 +61,7 @@ then get `http://localhost:8000/search?q=啊对对对是什么梗&max_results=3`
 ```
 ### self host
 ```bash
-git clone https://github.com/binjie09/duckduckgo-api.git
+git clone https://github.com/poboll/search_api.git
 cd duckduckgo-api
 python3 -m venv myenv && source myenv/bin/activate && pip install -r requirements.txt
 gunicorn -b 0.0.0.0:8000 app:app
