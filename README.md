@@ -2,6 +2,9 @@
 
 免费的无限制的搜索接口-适用于ChatGPT镜像联网解决方案/Free unrestricted search interface GPT Mirror Networking Solution
 
+## Combining ChatGPT
+please refer to [Issues](https://github.com/poboll/search_api/issues/1#issuecomment-1575591848)
+
 ## Use vercel
 [https://xxx-api.vercel.app/search?q=啊对对对是什么梗&max_results=3](https://duckduckgo-api.vercel.app/search?q=啊对对对是什么梗&max_results=3)
 
